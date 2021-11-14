@@ -1,9 +1,4 @@
-# Final test
-
-This repository contains a code for the final test.
-
-**Please, make sure, that you have read all the instruction on this page and you understand them.
-Please ask if anything is not clear.**
+# " MOVEIS "
 
 ## Context
 
@@ -138,18 +133,6 @@ It should have an option to output the final price in bold (the one above has th
 - You should not modify the input XML files.
 - It is perfectly OK to use regular exceptions for error handling.
 - **Refactor in small pieces, run tests after each refactoring and on commit on green tests. This way you will always have something working to hand in.**
-- **If you have any doubt, please ASK!!!**
-
-## Grading
-
-Solving each TODO will earn you some points.
-The number of points is only indicative.
-The final number will be judged by a human reviewer.
-It is possible to get less points if the refactoring is not well executed.
-In some cases, it is also possible to get more points for an exceptionally well done refactoring.
-
-Do the following unless you want to loose points:
-
-- Remove unnecessary mutable state.
+- Remove unnecessary mutable states.
 - Use [string interpolation](https://docs.scala-lang.org/overviews/core/string-interpolation.html) or [StringBuilder](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html) instead of string concatenation (via `+` method).
 - Remove code duplication.
