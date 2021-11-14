@@ -1,0 +1,9 @@
+Streaming report for John Doe (2)
+- Irishman 3.0 CZK
+- Irishman (HD) 4.5 CZK
+- Taxi Driver (4K) 3.0 CZK
+
+Streamings: 3
+Movies: 2
+Total: 10.5 CZK
+Points: 12

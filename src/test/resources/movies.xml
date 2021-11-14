@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<movies>
+    <movie id="1" category="2">
+        <title>Irishman</title>
+    </movie>
+    <movie id="2" category="1">
+        <title>Taxi Driver</title>
+    </movie>
+    <movie id="3" category="3">
+        <title>The Nightmare Before Christmas</title>
+    </movie>
+</movies>

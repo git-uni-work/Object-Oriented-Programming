@@ -1,0 +1,47 @@
+#+BEGIN_SRC plantuml :results file silent :file class-diagram.png
+@startuml
+
+skinparam class {
+  BackgroundColor White
+  BorderColor Black
+  ArrowColor Black
+}
+
+class Streaming {
+  -movieId: Int
+  -quality: Int
+}
+
+class Customer {
+  -id: Int
+  -name: String
+  -statement(): String
+  + {static} load(file: String): Customer[0..*]
+}
+
+Customer "1" *-- "1..*" Streaming : streamings
+
+class Movie {
+  -id: Int
+  -title: String
+  -category: Int
+  + {static} load(file: String): Movie[0..*]
+}
+
+class MovieService {
+  -movieById(id: Int): Movie
+}
+
+class ServiceLocator
+
+ServiceLocator "1" -- "1" MovieService : movieService
+
+class Globals {
+  + {static} LoyaltyPointsBonus: Boolean
+  + {static} UseEmphasis: Boolean
+}
+@enduml
+#+END_SRC
+
+
+[[file:class-diagram.png]]

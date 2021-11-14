@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<customers>
+    <customer id="1" name="Alice Wonderland">
+        <streamings>
+            <streaming movie="3" quality="3"/>
+        </streamings>
+    </customer>
+    <customer id="2" name="John Doe">
+        <streamings>
+            <streaming movie="1" quality="1"/>
+            <streaming movie="1" quality="2"/>
+            <streaming movie="2" quality="3"/>
+        </streamings>
+    </customer>
+</customers>
