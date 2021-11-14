@@ -125,8 +125,6 @@ It should have an option to output the final price in bold (the one above has th
 
 ## General rules
 
-**READ THESE RULES VERY CAREFULLY**
-
 - **KISS** - keep it simple, stupid - most of the refactoring lies in simplifying the code, reducing its complexity.
 - **DRY** - do not repeat yourself - code duplication will be penalized.
 - You can modify any code.
